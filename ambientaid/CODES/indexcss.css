@@ -715,6 +715,7 @@
 		font-family: "Monterchi Thin";
 		font-size: 120%;
 		color:white;
+		z-index:-1;
 	}
 	
 	
