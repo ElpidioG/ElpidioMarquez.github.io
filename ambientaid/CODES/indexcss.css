@@ -707,7 +707,7 @@
 	
 	#footer{
 		position: absolute;
-		top: 420%;
+		top: 425%;
 		left: 0%;
 		height: 30%;
 		width: 100%;
@@ -715,7 +715,7 @@
 		font-family: "Monterchi Thin";
 		font-size: 120%;
 		color:white;
-		z-index:-1;
+
 	}
 	
 	
