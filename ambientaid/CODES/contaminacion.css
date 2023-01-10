@@ -1,0 +1,2420 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	a:hover{
+	color: black;
+	font-weight: 500;
+
+	
+}
+
+
+
+#separador img{
+	position: absolute;
+left: 0%;top: 0%;
+	height: 100%;z-index: 0;
+	width: 100%;
+}
+body{
+background: url('../IMAGENES/fondoconta.jpg'); background-repeat:no-repeat; background-position: center center; position: static;
+       background-size:cover;background-attachment: fixed; 
+font-family: "Monterchi Thin";
+color: black;
+}
+/* header */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;transition: ease 0.7s;
+}
+::-webkit-scrollbar-thumb {
+
+	border-radius: 12px;}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var( --scrollbar-background-color ); transition: background-color .5s ease-out;
+}
+
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+
+/* items del menu */
+
+#menu ul li {
+
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+ 
+
+
+ padding-right: 25px;
+	
+	
+
+
+}
+
+/* items del menu */
+
+#menu ul li {
+ position:relative;
+ float:left;
+
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu:hover {
+
+}
+#menu{
+	position: inherit;
+	float: right;
+	left: 30%;
+	top: 0%;
+		
+	display: inline;
+	height: 15%;
+	width: 70%;
+
+}
+
+
+#menu ul ul {
+ display:none;
+ position:absolute;
+
+ left:0;
+	right: 5;
+	width: 100%;
+
+	  background: rgba(143,143,143,0.8);
+
+
+}
+
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+	font-size: 100%;
+ float:none;
+
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+
+padding: 5% 5%;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+ display:block;
+	
+	
+}
+
+
+
+#nav{
+	position: inherit;
+	display: block;
+right: 0%;
+	width: 80%;
+padding: 2%;
+	height: 10%;
+	font-family: "Monterchi Thin";
+	font-size: 150%;
+
+			
+
+}
+#header	{
+	width:100%;
+position: fixed;
+z-index: 10;
+}
+
+#as{
+	top: 0%;
+	position:absolute;
+	padding: 3%; background-color: transparent;
+	  transition: background-color .5s ease-out;
+	width: 80%;
+	left: 2%;
+
+}
+
+#as.scroll {
+background: rgba(143,143,143,0.6);
+
+
+}
+
+
+a{
+
+display: inline-block;
+
+
+	padding-right: 2%;
+
+	color:white;
+	text-decoration: none;
+
+
+}
+
+
+
+
+#logo	{
+	float: left;
+
+	margin-top: -3%;
+
+	width: 12%; height:12%;
+}
+
+.logomain{
+	position: absolute;
+	left: 35%;
+	top: 10%;
+	right: 35%;
+	width:30%; 
+}
+
+.flecha{
+	position: absolute;
+	left: 70%;
+	top: 32%;
+	right: 35%;
+
+	
+	height: 30%;
+
+}
+
+.flecha1{
+	position: absolute;
+	left: 75%;
+	top: 32%;
+	right: 35%;
+
+	
+	height: 30%;
+
+}
+
+.slogan{
+		position: absolute;
+	top:20%;
+	left: 10%;
+	width:80%;
+	right: 10%;
+	height: 75%;
+	
+
+	
+		font-family: "Monterchi Thin";
+	font-size: 200%;
+	color: white;
+	
+	
+}.slogan >h1{
+	text-align: center;margin-top: -1%;
+	font-size: 300%;
+
+}
+
+#textmain{
+	left: 2%;
+	position: inherit;
+	width: 25%;
+	border: solid white ;
+	text-align: justify;
+	padding:2%;top: 20%;
+}
+
+
+
+
+@keyframes fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+	
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slideshow-container {
+
+  position:absolute;
+  margin: auto;background-repeat: no-repeat;
+
+	height: 100%;
+	left: 0%;top:0%;
+}
+
+
+
+
+
+
+
+.MySlides{
+	
+  display: none;
+
+}
+
+.headerfondo{
+	position: absolute;
+  
+	
+background-repeat: no-repeat;
+
+	height: 100%;
+	left: 0%;top:0%;
+}
+
+
+/*body*/
+
+
+#parte1{
+	
+	position: absolute;
+	top: 100%;
+width: 100%;
+	left: 0%;
+	height: 100%;
+	color: white;
+	
+	font-family: "Monterchi Thin";
+	font-size: 200%;
+		
+	background: #060606;
+	background-image: url("../IMAGENES/fondocont.jpg"); background-repeat: no-repeat;
+}
+#parte1 h2{top:15%; font-family: "Monterchi Thin"; position: inherit; text-align: center; width: 100%;}
+#parte3 #tit{top:8%; font-family: "Monterchi Thin"; position: inherit; text-align: center; width: 100%;}
+
+
+
+#causas{
+	border: solid #8f8f8f;
+	position: inherit;
+	top: 40%;
+	width: 25%;
+	left: 10%;	z-index: 9;	
+	height: 40%;  box-shadow: 0px 20px 100px #555;
+		  background: rgba(143,143,143,0.8);
+ transition: transform .2s;
+}
+
+#causas li{
+	font-size: 70%;
+}
+#conse li{
+	font-size: 70%;
+}
+
+#causas:hover{
+	transform: scale(1.5);
+}
+
+
+
+#arrowAnim {
+	position: inherit;
+  width: 20%;	top: 55%;	left: 35%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	transform: rotate(180deg);
+
+}
+
+.arrow {
+  width: 4vw;
+  height: 4vw;
+
+  border: 2.5vw solid;
+  border-color: black transparent transparent black;
+ transform: rotate(-45deg);
+}
+
+
+.arrowSliding {
+  position: absolute;
+  -webkit-animation: slide 4s linear infinite; 
+          animation: slide 4s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+.delay2 {
+  -webkit-animation-delay: 2s; 
+    animation-delay: 2s;
+}
+.delay3 {
+  -webkit-animation-delay: 3s; 
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes slide {
+    0% { opacity:0; transform: translateX(15vw); }	
+   20% { opacity:1; transform: translateX(9vw); }	
+   80% { opacity:1; transform: translateX(-9vw); }	
+  100% { opacity:0; transform: translateX(-15vw); }	
+}
+@keyframes slide {
+    0% { opacity:0; transform: translateX(15vw); }	
+   20% { opacity:1; transform: translateX(9vw); }	
+   80% { opacity:1; transform: translateX(-9vw); }	
+  100% { opacity:0; transform: translateX(-15vw); }	
+}
+
+#conse{
+	border: solid #8f8f8f;
+	position: inherit;
+	top: 40%;
+	width: 25%;
+	left: 63%;
+	height: 40%;z-index: 9;
+	 box-shadow: 0px 20px 100px #555;
+		  background: rgba(143,143,143,0.8);
+ transition: transform .2s;
+}
+
+#conse:hover{
+
+	transform: scale(1.5);
+}
+
+/*•pt2.*/
+#parte2{
+	position: absolute;
+width: 100%;
+	left: 0%;
+	height: 100%;
+	top:200%;
+	font-size: 200%;
+	color: white;	font-family: "Monterchi Thin";
+
+	background-image: url("../IMAGENES/fondocont.jpg");
+}
+#parte2 h2{top:15%; font-family: "Monterchi Thin"; position: inherit; text-align: center; width: 100%;}
+
+
+
+#causasaire{
+	border: solid #8f8f8f;
+	position: inherit;
+	top: 40%;
+	width: 25%;
+	left: 10%;	z-index: 9;	
+	height: 40%;
+		  background: rgba(143,143,143,0.8);
+
+	
+	  transform:
+    perspective(900px)
+    rotateX(60deg)
+    scale(0.7);
+  box-shadow: 0px 20px 100px #555;
+transition:0.8s ease all;
+}
+
+#causasaire li{
+	font-size: 70%;
+}
+#consesaire li{
+	font-size: 70%;
+}
+
+#causasaire:hover{
+    transform:
+      rotate(0deg)
+      scale(1.5)
+    
+}
+
+
+#rightarrow{
+	position: inherit;
+	top: 40%;
+	left: 40%;	z-index: 1;
+}
+
+
+#conseaire{
+	border: solid #8f8f8f;
+	position: inherit;
+	top: 40%;
+	width: 25%;
+	left: 63%;
+	height: 40%;z-index: 9;
+
+		  background: rgba(143,143,143,0.8);
+
+	  transform:
+    perspective(900px)
+    rotateX(60deg)
+    scale(0.7);
+  box-shadow: 0px 20px 100px #555;
+  transition:0.8s ease all;
+}
+
+#conseaire:hover{
+    transform:
+      rotate(0deg)
+      scale(1.5)
+    
+}
+
+
+
+
+
+
+#parte3{
+	position: absolute;
+width: 100%;
+	left: 0%;
+	height: 100%;
+	top:300%;
+	font-size: 220%;
+	color: white;	font-family: "Monterchi Thin";
+	text-align: center;
+	background-image: url(../IMAGENES/fondocont.jpg);
+}
+
+
+button:hover {
+  background: #06D85F;
+}
+
+.textorn{	font-family: "Monterchi Thin";
+	font-size:70%;
+	width: 75%;
+	height: 50%;
+left: 12.5%;
+	top: 48%;
+	text-align: justify;
+	color: white;
+	position: inherit;
+	
+}
+#reusa{
+	position:inherit;
+	left: 10%;
+	width: 20%;	cursor: pointer;
+	height: 50%;
+top: 25%;
+font-size: 100%;
+	color: white;
+	  background: rgba(143,143,143,1);border: rgba(255,255,255,1.00) dashed ;
+	
+border-radius: 10%;
+}
+
+
+#reusa > img{
+	border: rgba(255,255,255,1.00) dashed ;
+border-radius: 10%;
+	position: relative;
+	top: 30%;
+}
+
+
+#reusa:hover{
+	
+box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+	margin-top: -1%;
+}
+
+
+#reusa:active  {
+  transform: rotateY(180deg);  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+
+
+  
+  perspective: 1000%;
+
+
+	
+}
+#reduce{
+	position:inherit;
+	left: 39%;	cursor: pointer;
+	top: 35%;
+	width: 20%;
+	height: 50%;
+border-radius: 10%;
+				  background: rgba(143,143,143,1);border: rgba(255,255,255,1.00) dashed ;
+}
+
+
+#reduce > img{
+
+	border: rgba(255,255,255,1.00) dashed ;
+border-radius: 10%;
+	position: relative;
+	top: 30%;
+}
+#reduce:active  {
+  transform: rotateY(180deg);  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+
+
+  
+  perspective: 1000%;
+
+
+	
+}
+#reduce:hover{
+box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+	margin-top: -1%;
+}
+
+#recicla{
+	position:inherit;
+	left: 68.5%;
+	width: 20%;top: 25%;
+	height: 50%;
+	cursor: pointer;
+border-radius: 10%;
+	  background: rgba(143,143,143,1);border: rgba(255,255,255,1.00) dashed ;
+}
+
+
+#recicla > img{
+	border: rgba(255,255,255,1.00) dashed ;
+border-radius: 10%;
+	position: relative;
+	top: 30%;
+	
+}
+
+#recicla:active  {
+  transform: rotateY(180deg);  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+
+
+  
+  perspective: 1000%;
+
+
+	
+}
+
+#recicla:hover{
+	
+box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+	margin-top: -1%;
+}
+
+#flecha1{
+	position: inherit;
+	width: 20%;
+	height: 30%;
+	top: 35%; 
+	left: 25%;
+	transform: rotate(0deg);
+}
+#flecha2{
+	position: inherit;
+	width: 25%;
+	height: 30%;
+	top: 35%; 
+	left: 50%;
+	transform: rotate(-25deg);
+}
+#footer{
+	position: absolute;
+	top: 418%;
+	left: 0%;
+	height: 35%;
+	width: 100%;
+	  background: rgba(143,143,143,1);
+	font-family: "Monterchi Thin";
+	font-size: 120%;
+	color:white;
+}
+
+
+#anuncio{
+	
+		position: absolute;top: 400%;	  background: rgba(143,143,143,1);width: 100%; text-align: center;left: 0%;
+	}
+
+.flip-box-back {
+
+  transform: rotateY(180deg);
+
+
+  backface-visibility: hidden;
+		position:inherit;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+top: 0%;
+font-size: 100%;
+	color: black;
+	background-color: rgba(250,250,250,1.00);
+	text-align: center;
+border-radius: 10%;
+}
+
+.flip-box-back > h2{
+	
+	position: inherit;
+	margin-bottom:25%;
+	top: 0%;
+	text-align: center;
+width: 100%;
+	padding-bottom: 5%;font-size:80%;
+}
+
+.textoflip{	font-family: "Monterchi Thin";
+	font-size:50%;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	height: 100%;
+	text-align: justify;
+color: black;
+
+	position: inherit;
+	
+}
+
+.liflip{	font-family: "Monterchi Thin";
+	font-size:50%;
+	width: 80%;
+	left: 1%;
+	right: 10%;
+	top: 45%;
+	height: 100%;
+	text-align: justify;
+color: black;
+
+	position: inherit;
+	
+}
+
+
+#footer > h4{
+	font-weight: 600;
+	font-size: 130%;left: 2%;
+	float: left;
+	text-align: left;
+	position: inherit;
+	top: 0%;
+		
+}
+
+#footiz{
+		text-align: justify;
+	position: inherit;
+	float: left;
+	top: 25%;
+	width: 25%;
+	left: 2%;
+	
+}
+
+
+#footiz1{
+		text-align: justify;
+	position: inherit;
+	float: left;
+	top: 40%;
+	width: 25%;
+	left: 2%;
+	
+}
+
+#footiz2{
+		text-align: justify;
+	position: inherit;
+	float: left;
+	top: 55%;
+	width: 25%;
+	left: 2%;
+	
+}
+
+#footder{
+		text-align: right;
+	position: inherit;
+	float: right;
+	top: 70%;
+	width: 98%;
+	
+	
+}
+
+}
+@media only screen 
+and (min-width : 1824px)  {
+
+	a:hover{
+		color: black;
+		font-weight: 500;
+	
+		
+	}
+	
+	
+	
+	#separador img{
+		position: absolute;
+	left: 0%;top: 0%;
+		height: 100%;z-index: 0;
+		width: 100%;
+	}
+	body{
+	background: url('../IMAGENES/fondoconta.jpg'); background-repeat:no-repeat; background-position: center center; position: static;
+		   background-size:cover;background-attachment: fixed; 
+	font-family: "Monterchi Thin";
+	color: black;
+	}
+	/* header */
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+	::-webkit-scrollbar-track {
+		background: transparent;transition: ease 0.7s;
+	}
+	::-webkit-scrollbar-thumb {
+	
+		border-radius: 12px;}
+	
+	body::-webkit-scrollbar-thumb{
+		background-color: var( --scrollbar-background-color ); transition: background-color .5s ease-out;
+	}
+	
+	#menu ul {
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+	}
+	
+	/* items del menu */
+	
+	#menu ul li {
+	
+	}
+	
+	/* enlaces del menu */
+	
+	#menu ul a {
+	 
+	
+	
+	 padding-right: 25px;
+		
+		
+	
+	
+	}
+	
+	/* items del menu */
+	
+	#menu ul li {
+	 position:relative;
+	 float:left;
+	
+	}
+	
+	/* efecto al pasar el ratón por los items del menu */
+	
+	#menu:hover {
+	
+	}
+	#menu{
+		position: inherit;
+		float: right;
+		left: 30%;
+		top: 0%;
+			
+		display: inline;
+		height: 15%;
+		width: 70%;
+	
+	}
+	
+	
+	#menu ul ul {
+	 display:none;
+	 position:absolute;
+	
+	 left:0;
+		right: 5;
+		width: 100%;
+	
+		  background: rgba(143,143,143,0.8);
+	
+	
+	}
+	
+	
+	/* items del menu desplegable */
+	
+	#menu ul ul li {
+		font-size: 100%;
+	 float:none;
+	
+	}
+	
+	/* enlaces de los items del menu desplegable */
+	
+	#menu ul ul a {
+	
+	padding: 5% 5%;
+	}
+	
+	/* items del menu desplegable al pasar el ratón */
+	
+	#menu ul li:hover > ul {
+	 display:block;
+		
+		
+	}
+	
+	
+	
+	#nav{
+		position: inherit;
+		display: block;
+	right: 0%;
+		width: 80%;
+	padding: 2%;
+		height: 10%;
+		font-family: "Monterchi Thin";
+		font-size: 150%;
+	
+				
+	
+	}
+	#header	{
+		width:100%;
+	position: fixed;
+	z-index: 10;
+	}
+	
+	#as{
+		top: 0%;
+		position:absolute;
+		padding: 3%; background-color: transparent;
+		  transition: background-color .5s ease-out;
+		width: 80%;
+		left: 2%;
+	
+	}
+	
+	#as.scroll {
+	background: rgba(143,143,143,0.6);
+	
+	
+	}
+	
+	
+	a{
+	
+	display: inline-block;
+	
+	
+		padding-right: 2%;
+	
+		color:white;
+		text-decoration: none;
+	
+	
+	}
+	
+	
+	
+	
+	#logo	{
+		float: left;
+	
+		margin-top: -3%;
+	
+		width: 12%; height:12%;
+	}
+	
+	.logomain{
+		position: absolute;
+		left: 35%;
+		top: 10%;
+		right: 35%;
+		width:30%; 
+	}
+	
+	.flecha{
+		position: absolute;
+		left: 70%;
+		top: 32%;
+		right: 35%;
+	
+		
+		height: 30%;
+	
+	}
+	
+	.flecha1{
+		position: absolute;
+		left: 75%;
+		top: 32%;
+		right: 35%;
+	
+		
+		height: 30%;
+	
+	}
+	
+	.slogan{
+			position: absolute;
+		top:20%;
+		left: 10%;
+		width:80%;
+		right: 10%;
+		height: 75%;
+		
+	
+		
+			font-family: "Monterchi Thin";
+		font-size: 200%;
+		color: white;
+		
+		
+	}.slogan >h1{
+		text-align: center;margin-top: -1%;
+		font-size: 300%;
+	
+	}
+	
+	#textmain{
+		left: 2%;
+		position: inherit;
+		width: 25%;
+		border: solid white ;
+		text-align: justify;
+		padding:2%;top: 20%;
+	}
+	
+	
+	
+	
+	@keyframes fade {
+	  from {opacity: .7}
+	  to {opacity: 1}
+	}
+	
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+		
+	
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+	
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+	
+	
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  margin-top: -22px;
+	  padding: 16px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	}
+	
+	.slideshow-container {
+	
+	  position:absolute;
+	  margin: auto;background-repeat: no-repeat;
+	
+		height: 100%;
+		left: 0%;top:0%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	.MySlides{
+		
+	  display: none;
+	
+	}
+	
+	.headerfondo{
+		position: absolute;
+	  
+		
+	background-repeat: no-repeat;
+	
+		height: 100%;
+		left: 0%;top:0%;
+	}
+	
+	
+	/*body*/
+	
+	
+	#parte1{
+		
+		position: absolute;
+		top: 100%;
+	width: 100%;
+		left: 0%;
+		height: 100%;
+		color: white;
+		
+		font-family: "Monterchi Thin";
+		font-size: 200%;
+			background-size: 100%;
+		
+		background-image: url("../IMAGENES/fondocont.jpg"); background-repeat: no-repeat;
+	}
+	#parte1 h2{top:15%; font-family: "Monterchi Thin"; position: inherit; text-align: center; width: 100%;}
+	#parte3 #tit{top:8%; font-family: "Monterchi Thin"; position: inherit; text-align: center; width: 100%;}
+	
+	
+	
+	#causas{
+		border: solid #8f8f8f;
+		position: inherit;
+		top: 40%;
+		width: 25%;
+		left: 10%;	z-index: 9;	
+		height: 40%;  box-shadow: 0px 20px 100px #555;
+			  background: rgba(143,143,143,0.8);
+	 transition: transform .2s;
+	}
+	
+	#causas li{
+		font-size: 70%;
+	}
+	#conse li{
+		font-size: 70%;
+	}
+	
+	#causas:hover{
+		transform: scale(1.5);
+	}
+	
+	
+	
+	#arrowAnim {
+		position: inherit;
+	  width: 20%;	top: 55%;	left: 35%;
+	  height: 10%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+		transform: rotate(180deg);
+	
+	}
+	
+	.arrow {
+	  width: 4vw;
+	  height: 4vw;
+	
+	  border: 2.5vw solid;
+	  border-color: black transparent transparent black;
+	 transform: rotate(-45deg);
+	}
+	
+	
+	.arrowSliding {
+	  position: absolute;
+	  -webkit-animation: slide 4s linear infinite; 
+			  animation: slide 4s linear infinite;
+	}
+	
+	.delay1 {
+	  -webkit-animation-delay: 1s; 
+		animation-delay: 1s;
+	}
+	.delay2 {
+	  -webkit-animation-delay: 2s; 
+		animation-delay: 2s;
+	}
+	.delay3 {
+	  -webkit-animation-delay: 3s; 
+		animation-delay: 3s;
+	}
+	
+	@-webkit-keyframes slide {
+		0% { opacity:0; transform: translateX(15vw); }	
+	   20% { opacity:1; transform: translateX(9vw); }	
+	   80% { opacity:1; transform: translateX(-9vw); }	
+	  100% { opacity:0; transform: translateX(-15vw); }	
+	}
+	@keyframes slide {
+		0% { opacity:0; transform: translateX(15vw); }	
+	   20% { opacity:1; transform: translateX(9vw); }	
+	   80% { opacity:1; transform: translateX(-9vw); }	
+	  100% { opacity:0; transform: translateX(-15vw); }	
+	}
+	
+	#conse{
+		border: solid #8f8f8f;
+		position: inherit;
+		top: 40%;
+		width: 25%;
+		left: 63%;
+		height: 40%;z-index: 9;
+		 box-shadow: 0px 20px 100px #555;
+			  background: rgba(143,143,143,0.8);
+	 transition: transform .2s;
+	}
+	
+	#conse:hover{
+	
+		transform: scale(1.5);
+	}
+	
+	/*•pt2.*/
+	#parte2{
+		position: absolute;
+	width: 100%;
+		left: 0%;
+		height: 100%;
+		top:200%;
+		font-size: 200%;
+		color: white;	font-family: "Monterchi Thin";
+	
+		background-image: url("../IMAGENES/fondocont.jpg");
+	}
+	#parte2 h2{top:8%; font-family: "Monterchi Thin"; position: inherit; text-align: center; width: 100%;}
+	
+	
+	
+	#causasaire{
+		border: solid #8f8f8f;
+		position: inherit;
+		top: 40%;
+		width: 25%;
+		left: 10%;	z-index: 9;	
+		height: 40%;
+			  background: rgba(143,143,143,0.8);
+	
+		
+		  transform:
+		perspective(900px)
+		rotateX(60deg)
+		scale(0.7);
+	  box-shadow: 0px 20px 100px #555;
+	transition:0.8s ease all;
+	}
+	
+	#causasaire li{
+		font-size: 70%;
+	}
+	#consesaire li{
+		font-size: 70%;
+	}
+	
+	#causasaire:hover{
+		transform:
+		  rotate(0deg)
+		  scale(1.5)
+		
+	}
+	
+	
+	#rightarrow{
+		position: inherit;
+		top: 40%;
+		left: 40%;	z-index: 1;
+	}
+	
+	
+	#conseaire{
+		border: solid #8f8f8f;
+		position: inherit;
+		top: 40%;
+		width: 25%;
+		left: 63%;
+		height: 40%;z-index: 9;
+	
+			  background: rgba(143,143,143,0.8);
+	
+		  transform:
+		perspective(900px)
+		rotateX(60deg)
+		scale(0.7);
+	  box-shadow: 0px 20px 100px #555;
+	  transition:0.8s ease all;
+	}
+	
+	#conseaire:hover{
+		transform:
+		  rotate(0deg)
+		  scale(1.5)
+		
+	}
+	
+	
+	
+	
+	
+	
+	#parte3{
+		position: absolute;
+	width: 100%;
+		left: 0%;
+		height: 100%;
+		top:300%;
+		font-size: 220%;
+		color: white;	font-family: "Monterchi Thin";
+		text-align: center;
+		background-image: url(../IMAGENES/fondocont.jpg);
+	}
+	
+	
+	button:hover {
+	  background: #06D85F;
+	}
+	
+	.textorn{	font-family: "Monterchi Thin";
+		font-size:70%;
+		width: 75%;
+		height: 50%;
+	left: 12.5%;
+		top: 48%;
+		text-align: justify;
+		color: white;
+		position: inherit;
+		
+	}
+	#reusa{
+		position:inherit;
+		left: 10%;
+		width: 20%;	cursor: pointer;
+		height: 50%;
+	top: 25%;
+	font-size: 100%;
+		color: white;
+		  background: rgba(143,143,143,1);border: rgba(255,255,255,1.00) dashed ;
+		
+	border-radius: 10%;
+	}
+	
+	
+	#reusa > img{
+		border: rgba(255,255,255,1.00) dashed ;
+	border-radius: 10%;
+		position: relative;
+		top: 30%;
+	}
+	
+	
+	#reusa:hover{
+		
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	
+	#reusa:active  {
+	  transform: rotateY(180deg);  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	  backface-visibility: visible;
+	
+	
+	  
+	  perspective: 1000%;
+	
+	
+		
+	}
+	#reduce{
+		position:inherit;
+		left: 39%;	cursor: pointer;
+		top: 35%;
+		width: 20%;
+		height: 50%;
+	border-radius: 10%;
+					  background: rgba(143,143,143,1);border: rgba(255,255,255,1.00) dashed ;
+	}
+	
+	
+	#reduce > img{
+	
+		border: rgba(255,255,255,1.00) dashed ;
+	border-radius: 10%;
+		position: relative;
+		top: 30%;
+	}
+	#reduce:active  {
+	  transform: rotateY(180deg);  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	  backface-visibility: visible;
+	
+	
+	  
+	  perspective: 1000%;
+	
+	
+		
+	}
+	#reduce:hover{
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	#recicla{
+		position:inherit;
+		left: 68.5%;
+		width: 20%;top: 25%;
+		height: 50%;
+		cursor: pointer;
+	border-radius: 10%;
+		  background: rgba(143,143,143,1);border: rgba(255,255,255,1.00) dashed ;
+	}
+	
+	
+	#recicla > img{
+		border: rgba(255,255,255,1.00) dashed ;
+	border-radius: 10%;
+		position: relative;
+		top: 30%;
+		
+	}
+	
+	#recicla:active  {
+	  transform: rotateY(180deg);  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	  backface-visibility: visible;
+	
+	
+	  
+	  perspective: 1000%;
+	
+	
+		
+	}
+	
+	#recicla:hover{
+		
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	#flecha1{
+		position: inherit;
+		width: 20%;
+		height: 30%;
+		top: 35%; 
+		left: 25%;
+		transform: rotate(0deg);
+	}
+	#flecha2{
+		position: inherit;
+		width: 25%;
+		height: 30%;
+		top: 35%; 
+		left: 50%;
+		transform: rotate(-25deg);
+	}
+	#footer{
+		position: absolute;
+		top: 412.5%;
+		left: 0%;
+		height: 35%;
+		width: 100%;
+		  background: rgba(143,143,143,1);
+		font-family: "Monterchi Thin";
+		font-size: 120%;
+		color:white;
+	}
+	
+	
+	#anuncio{
+		
+			position: absolute;top: 400%;	  background: rgba(143,143,143,1);width: 100%; text-align: center;left: 0%;
+		}
+	
+	.flip-box-back {
+	
+	  transform: rotateY(180deg);
+	
+	
+	  backface-visibility: hidden;
+			position:inherit;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+	top: 0%;
+	font-size: 100%;
+		color: black;
+		background-color: rgba(250,250,250,1.00);
+		text-align: center;
+	border-radius: 10%;
+	}
+	
+	.flip-box-back > h2{
+		
+		position: inherit;
+		margin-bottom:25%;
+		top: 0%;
+		text-align: center;
+	width: 100%;
+		padding-bottom: 5%;font-size:80%;
+	}
+	
+	.textoflip{	font-family: "Monterchi Thin";
+		font-size:50%;
+		width: 80%;
+		left: 10%;
+		right: 10%;
+		height: 100%;
+		text-align: justify;
+	color: black;
+	
+		position: inherit;
+		
+	}
+	
+	.liflip{	font-family: "Monterchi Thin";
+		font-size:50%;
+		width: 80%;
+		left: 1%;
+		right: 10%;
+		top: 30%;
+		height: 100%;
+		text-align: justify;
+	color: black;
+	
+		position: inherit;
+		
+	}
+	
+	
+	#footer > h4{
+		font-weight: 600;
+		font-size: 130%;left: 2%;
+		float: left;
+		text-align: left;
+		position: inherit;
+		top: 0%;
+			
+	}
+	
+	#footiz{
+			text-align: justify;
+		position: inherit;
+		float: left;
+		top: 25%;
+		width: 25%;
+		left: 2%;
+		
+	}
+	
+	
+	#footiz1{
+			text-align: justify;
+		position: inherit;
+		float: left;
+		top: 40%;
+		width: 25%;
+		left: 2%;
+		
+	}
+	
+	#footiz2{
+			text-align: justify;
+		position: inherit;
+		float: left;
+		top: 55%;
+		width: 25%;
+		left: 2%;
+		
+	}
+	
+	#footder{
+			text-align: right;
+		position: inherit;
+		float: right;
+		top: 70%;
+		width: 98%;
+		
+		
+	}
+	
+	
+
+
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+
+
+	
+
+
+	a:hover{
+		color: rgba(66,158,255,1);
+		font-weight: 500;
+	
+		
+	}
+	
+	body{
+	
+	
+	color: black;
+	}
+	/* header */
+	
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+	::-webkit-scrollbar-track {
+		background: transparent;transition: ease 0.7s;
+	}
+	::-webkit-scrollbar-thumb {
+	
+		border-radius: 12px;}
+	
+	body::-webkit-scrollbar-thumb{
+		background-color: var( --scrollbar-background-color ); transition: background-color .5s ease-out;
+	}
+	#menu ul {
+	 list-style:none;
+	 margin:0;
+	 padding:0;
+	}
+	
+	/* items del menu */
+	
+	#menu ul li {
+	
+	}
+	
+	/* enlaces del menu */
+	
+	#menu ul a {
+	 
+	
+	
+	 padding-right: 25px;
+		
+		
+	
+	
+	}
+	
+	/* items del menu */
+	
+	#menu ul li {
+	 position:relative;
+	 float:left;
+	
+	}
+	
+	/* efecto al pasar el ratón por los items del menu */
+	
+	#menu:hover {
+	
+	}
+	#menu{
+		position: inherit;
+		float: right;
+		left: 30%;
+		top: 0%;
+			
+		display: inline;
+		height: 15%;
+		width: 70%;
+	
+	}
+	
+	
+	#menu ul ul {
+	 display:none;
+	 position:absolute;
+	
+	 left:0;
+		right: 5;
+		width: 100%;
+	
+	background: rgba(30,30,30,0.67);
+	
+	
+	}
+	
+	
+	/* items del menu desplegable */
+	
+	#menu ul ul li {
+		font-size: 100%;
+	 float:none;
+	
+	}
+	
+	/* enlaces de los items del menu desplegable */
+	
+	#menu ul ul a {
+	
+	padding: 5% 5%;
+	}
+	
+	/* items del menu desplegable al pasar el ratón */
+	
+	#menu ul li:hover > ul {
+	 display:block;
+		
+		
+	}
+	
+	
+	
+	#nav{
+		position: inherit;
+		display: block;
+	right: 0%;
+		width: 80%;
+	padding: 2%;
+		height: 10%;
+		font-family:"Monterchi Thin";
+		font-size: 150%;
+	
+				
+	
+	}
+	#header	{
+		width:100%;
+	position: fixed;
+	z-index: 10;
+	}
+	
+	#as{
+		top: 0%;
+		position:absolute;
+		padding: 3%; background-color: transparent;
+		  transition: background-color .5s ease-out;
+		width: 80%;
+		left: 2%;
+	
+	}
+	
+	#as.scroll {
+	background: rgba(30,30,30,0.67);
+	
+	
+	}
+	a{
+	
+	display: inline-block;
+	
+	
+		padding-right: 2%;
+	
+		color:white;
+		text-decoration: none;
+	
+	
+	}
+	
+	
+	
+	
+	#logo	{
+		float: left;
+	
+		margin-top: -3%;
+	
+		width: 12%; height:12%;
+	}
+	
+	.logomain{
+		position: absolute;
+		left: 35%;
+		top: 10%;
+		right: 35%;
+		width:30%; 
+	}
+	
+	.flecha{
+		position: absolute;
+		left: 70%;
+		top: 32%;
+		right: 35%;
+	
+		
+		height: 30%;
+	
+	}
+	
+	.flecha1{
+		position: absolute;
+		left: 75%;
+		top: 32%;
+		right: 35%;
+	
+		
+		height: 30%;
+	
+	}
+	.slogan{
+			position: absolute;
+		top:20%;
+		left: 10%;
+		width:80%;
+		right: 10%;
+		height: 75%;
+		
+	
+		
+			font-family: "Monterchi Thin";
+		font-size: 200%;
+		color: white;
+		
+		
+	}.slogan >h1{
+		text-align: center;margin-top: -1%;
+		font-size: 300%;
+	
+	}
+	
+	#textmain{
+		left: 2%;
+		position: inherit;
+		width: 25%;
+		border: solid white ;
+		text-align: justify;
+		padding:2%;top: 20%;
+	}
+	
+	
+	
+	@keyframes fade {
+	  from {opacity: .7}
+	  to {opacity: 1}
+	}
+	
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 2s;
+	}
+		
+	
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+	
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+	
+	
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  margin-top: -22px;
+	  padding: 16px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	}
+	
+	.slideshow-container {
+		background-image: url("../IMAGENES/fondo.png");
+	  position:absolute;
+	  margin: auto; background-repeat: no-repeat;
+width: 100%;
+background-size: 100%;
+		height: 100%;
+		left: 0%;top:0%;
+	}
+	
+	
+	
+
+	
+	.headerfondo{
+		position: absolute;
+	  
+		
+	background-repeat: no-repeat;
+	
+		height: 100%;
+		left: 0%;top:0%;
+	}
+	
+	#dots{
+		text-align: center;
+		position: absolute;
+		width: 99.4%;
+		height: 30%;
+		left: 0.6%;
+	
+	}
+	
+	.dot {
+	  cursor: pointer;
+		width: 6%;
+		margin-right: 2%;
+		height: 40%;
+	  margin-top: 35%;
+	font-size: 200%; 
+			font-family:"Monterchi Thin";
+			color: white;
+	background-color: rgba(11,130,255,0.25);
+	
+	
+	  transition: background-color 0.6s ease;
+	
+	}
+	.active, .dot:hover {
+	  background-color: rgba(0,0,0,0.65);
+	}
+	
+	
+	
+	
+	
+	
+	/*body*/
+	
+	
+	/*Recursos naturales*/
+	#rn{
+		position: absolute;
+	width: 100%;
+		left: 0%;
+		height: 100%;
+		top:100%;
+		font-size: 200%;
+		color: white;
+		text-align: center;
+		background-image: url("../IMAGENES/water.jpg");
+		background-size: 100%;
+	}
+	#plantas{
+		position:inherit;
+		left: 5%;
+		width: 27%;
+		height: 70%;
+		text-align: justify;
+	font-size: 100%;cursor: pointer;
+		color: white;
+		background-color: rgba(11,130,255,0.25);border: rgba(255,255,255,1.00) dashed ;
+		
+	border-radius: 10%;
+	}
+	
+	
+	#plantas > img{
+		position: inherit;
+		right: 5%; left:4%;
+	width: 90%;
+		top:5%;
+		height: 35%;
+	border-radius: 10%;
+	border: rgba(255,255,255,1.00) dashed ;
+	
+	}
+	h2{
+		
+	font-family:"Monterchi Thin";
+	}
+	h4{
+		font-size:90%;
+		font-family:"Monterchi Thin";
+		color: white;	position: inherit;
+		text-align: center;
+	;
+	top: 38%;
+		left:2.5%;
+		right: 2.5%;
+		
+	}
+	.textorn{
+		font-family:"Monterchi Thin";
+		font-size:70%;
+		width: 75%;
+		height: 50%;
+	left: 12.5%;
+		top: 48%;
+		text-align: justify;
+		color: white;
+		position: inherit;
+		
+	}
+	
+	
+	
+	
+	.leermas{
+		position: inherit;
+		width: 60%;
+		height: 20%;
+		right: 20%;
+		font-family:"Monterchi Thin";
+		font-size:100%;
+		font-weight: 800;
+	border: solid;
+		background: rgba(255,255,255,0.60);
+		top: 80%;
+		cursor: pointer;
+	}
+		
+	
+	
+	#mineria{
+		position:inherit;
+		left: 36.5%;cursor: pointer;
+		width: 27%;
+		height: 70%;
+	border-radius: 10%;
+					background-color: rgba(11,130,255,0.25);border: rgba(255,255,255,1.00) dashed ;
+	}
+	
+	
+	#mineria > img{
+		position: inherit;
+		right: 5%;
+		left: 4%;
+	width: 90%;
+		top:5%;
+		height: 35%;
+		border: rgba(255,255,255,1.00) dashed ;
+	border-radius: 10%;
+	}
+	#rh{
+		position:inherit;
+		left: 68.5%;
+		width: 27%;
+		height: 70%;cursor: pointer;
+	border-radius: 10%;
+					background-color: rgba(11,130,255,0.25);border: rgba(255,255,255,1.00) dashed ;
+	}
+	
+	
+	#rh > img{
+		position: inherit;
+		right: 5%;
+		left: 4%;
+	width: 90%;
+		top:5%;
+		height: 35%; border: rgba(255,255,255,1.00) dashed ;border-radius: 10%;
+	}
+	
+	/*Aportes economicos*/
+	
+	#aporteseconomicos{
+		position: absolute;
+	width: 100%;
+		left: 0%;
+		height: 100%;
+		top:200%;
+		font-size: 170%;
+		background-size: 100%;
+		background-image: url("../IMAGENES/min.jpg");
+	}
+	
+	
+	#infoecono > p{
+			font-size: 90%;
+	}
+	
+	
+	
+	#plantas:hover{
+		
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	
+	#plantas:active  {
+	  transform: rotateY(180deg);  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	  backface-visibility: visible;
+	
+	
+	  
+	  perspective: 1000%;
+	
+	
+		
+	}
+	#rh:active  {
+	  transform: rotateY(180deg);  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	  backface-visibility: visible;
+	
+	
+	  
+	  perspective: 1000%;
+	
+	
+		
+	}
+	#mineria:active  {
+	  transform: rotateY(180deg);  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	  backface-visibility: visible;
+	
+	
+	  
+	  perspective: 1000%;
+	
+	
+		
+	}
+	.flip-box-back {
+	
+	  transform: rotateY(180deg);
+	font-size: 80%;
+	
+	  backface-visibility: hidden;
+			position:inherit;
+		left: 0%;
+		width: 100%;
+		height: 100%;
+	
+	
+		color: white;
+		background-color: #0E0E0E;
+		text-align: center;
+	border-radius: 10%;
+	}
+	
+	.flip-box-back > h2{
+		
+		position: inherit;
+		margin-bottom:25%;
+		top: 2%;
+		text-align: center;
+		width: 100%;
+		padding-bottom: 5%;
+	}
+	
+	.flip-box-back > h5{
+		font-family:"Monterchi Thin";
+		font-size:90%;
+		width: 80%;
+		left: 10%;
+		right: 10%;
+		height: 100%;
+		text-align: justify;
+	
+	
+		color: white;
+		position: inherit;
+		
+	}
+	
+	#mineria:hover{
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	
+	#rh:hover{
+		
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	#infoecono:hover{
+		
+	box-shadow: -7px -7px 10px 3px rgba(104,104,104,0.8);
+		margin-top: -1%;
+	}
+	
+	
+	#infoecono{
+		position: inherit;
+		float: left;
+		text-align: justify;
+		left:5%;
+		right: 55%;
+			font-family:"Monterchi Thin";
+		background-color: rgba(11,130,255,0.25);
+		color:white;
+		padding-right: 1%;
+			padding-left: 1%;
+		border: dashed;
+		height: 85%;
+	
+	}
+	
+	#videoeco{
+			position: inherit;
+		float: right;
+		text-align: justify;
+		left:50%;
+		right: 5%;
+		height: 99%;
+		
+		
+	}
+	
+	#videoeco > iframe{
+		width: 100%;
+		height: 70%;
+		top: 8%;
+		position: inherit;border-radius: 10%;	border: dashed white;
+	
+	}
+	
+	
+	#button5{
+			position: inherit;
+	top:90%;
+		width: 30%;
+		height: 8%;
+		
+			left: 64%;
+		float: left;
+		font-family:"Monterchi Thin";
+		font-size:100%;
+		font-weight: 800;
+	border: solid;
+		background: rgba(255,255,255,0.60);
+	}
+	
+	
+	#contsal{
+	
+		position: absolute;
+		top: 300%;
+	width: 100%;
+		left: 0%;
+		height: 100%;
+		color: white;
+		
+		
+		font-size: 200%;
+			
+		background: #060606;
+		background-image: url("../IMAGENES/aire.jpg"); background-repeat: no-repeat;background-size: 100%;
+	}
+	
+	.textcs{
+		font-family:"Monterchi Thin";
+	
+		width: 75%;
+		height: 50%;	font-size: 90%;
+	left: 12.5%;
+		top: 48%;
+		text-align: justify;
+		color: white;
+		position: inherit;
+	}
+	
+	#conta{
+		position: inherit;
+		width: 50%;
+		float: left;
+		left: 1%;
+		right:1%;
+		top: 0%;
+		height: 100%;
+	
+	
+	}
+	
+	#salud{
+	
+		position: inherit;
+		width: 50%;
+		left: 50%;
+		float: right;
+		top: 0%;
+		height: 100%;
+	
+	}
+	
+	
+	#contsal > h2{
+	margin-top: 5%;
+	text-align: center;
+	
+		
+	}#contsal > h3{
+		position: inherit;
+		top: 50%;
+	text-align: center;
+		left: 49%;
+		font-family:"Monterchi Thin";
+		
+	}
+	
+	
+	#footer{
+		position: absolute;
+		top: 414.5%;
+		left: 0%;
+		height: 30%;
+		width: 100%;
+		  background: rgba(0,0,0,1);
+		font-family: "Monterchi Thin";
+		font-size: 120%;
+		color:white;
+	}
+	
+	
+	
+	#footer > h4{
+		font-weight: 600;
+		font-size: 130%;
+		float: left;left: 2%;
+		text-align: left;
+		position: inherit;
+		top: 0%;
+			
+	}
+	
+	#footiz{
+			text-align: justify;
+		position: inherit;
+		float: left;
+		top: 25%;
+		width: 25%;
+		left: 2%;
+		
+	}
+	
+	
+	#footiz1{
+			text-align: justify;
+		position: inherit;
+		float: left;
+		top: 40%;
+		width: 25%;
+		left: 2%;
+		
+	}
+	
+	#footiz2{
+			text-align: justify;
+		position: inherit;
+		float: left;
+		top: 55%;
+		width: 25%;
+		left: 2%;
+		
+	}
+	
+	#footder{
+			text-align: right;
+		position: inherit;
+		float: right;
+		top: 70%;
+		width: 98%;
+		
+		
+	}
+	
+		button >a:hover{
+			color:black;
+		}
+	/* Styles for some mobile devices */
+	
+	
+	#anuncio{
+		
+			position: absolute;top: 100%;background: black;width: 100%; text-align: center;
+		}
+	
+
+
+
+
+  }
+
+
